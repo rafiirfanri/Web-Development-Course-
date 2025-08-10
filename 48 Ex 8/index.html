@@ -1,0 +1,54 @@
+8<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: blue;
+            height: 60vh;
+            width: 70vw;
+            position: relative;
+        }
+
+        .box {
+            background-color: red;
+            height: 54px;
+            width: 56px;
+            display: flex;
+            position: absolute;
+            bottom: 0;
+            border-radius: 28px;
+            animation: rafi1 1s ease-in-out 1, rafi2 1s ease-in-out 1 reverse;
+animation-duration: re;
+        }
+
+        @keyframes rafi1 {
+            from {}
+
+            to {
+                transform: translateY(-280px) translateX(100px);
+            }
+        }
+
+        /* @keyframes rafi2 {
+            from {
+                transform: translateY(-140px) translateX(140px);
+            }
+
+            to {
+                transform: translateY(140x) translateX(140px); */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+</body>
+
+</html>
