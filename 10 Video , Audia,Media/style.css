@@ -1,0 +1,59 @@
+/* General Reset and Layout */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Video Styling */
+video {
+    border: 5px solid #ff6b6b;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+
+/* Audio Styling */
+audio {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 300px;
+}
+
+/* SVG Inline Circle Styling */
+svg {
+    margin: 20px auto;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+}
+svg:hover {
+    transform: scale(1.2);
+}
+
+/* External SVG Image Styling */
+img[src$=".svg"] {
+    width: 100px;
+    margin: 20px auto;
+    display: block;
+}
+
+/* Iframe Styling */
+iframe {
+    margin: 20px;
+    border: 3px solid #6c63ff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive Video + Iframes */
+@media (max-width: 768px) {
+    video, iframe {
+        width: 90% !important;
+        height: auto;
+    }
+}

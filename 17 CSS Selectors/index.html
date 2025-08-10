@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Selector</title>
+    <style>
+        /* Element Selector */
+        div {
+            /* color: blueviolet; */
+        }
+
+        /* Class selector */
+        .one {
+            color: red;
+            background-color: whitesmoke;
+        }
+
+        /* id SElector  */
+        #one {
+            color: yellow;
+            background-color: black;
+        }
+
+        /* Child Selector  */
+        div>p {
+            color: blue;
+        }
+
+        /* Desendant Selector  */
+        div p {
+            color: black;
+            background-color:aqua;
+        }
+
+        /* Universal Selector  */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* psuda Selectors  */
+        a:visited{
+            color: blue;
+        }
+        a:link{
+            color: green;
+        }
+        a:active{
+            background-color: red;
+        }
+        a:hover{
+            background-color: blue;
+        }
+        /* p:fisrt-child{
+        background-color: aqua;
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="one">
+        I am a first div
+        <p> I am first </p>
+        <p>I am Secend</p>
+    </div>
+    <div id="one">
+        This is the second div
+    </div>
+    <a href="http://www.google.com"> Go to Google </a>
+    <a href="http://www.Facebook2.com"> Facebook</a>
+
+</body>
+
+</html>
