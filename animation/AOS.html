@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASO.animate</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        h1{
+            text-align: center;
+            font-size: 5rem;
+            margin-bottom: 500px;
+            margin-top: 200px;
+        }
+        .container{
+             border: 2px solid black;
+    margin: 100px auto;
+   
+    width: 400px ;
+    height: 300px ;
+    font-size: 3rem ;
+   
+    align-content: center;
+     text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 data-aos="fade-up"
+     data-aos-anchor-placement="center-center">Hello AOS Animate</h1>
+
+     <div class="container" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" > AOS animate  
+
+     </div>
+     <div class="container" data-aos="fade-right"> AOS animate  
+
+     </div>
+     <div class="container" data-aos="fade-left"> AOS animate  
+
+     </div>
+     <div class="container" data-aos="fade-down-right"> AOS animate  
+
+     </div>
+     <div class="container"  data-aos="fade-down-left"> AOS animate  
+
+     </div>
+     <div class="container" data-aos="flip-left"> AOS animate  
+
+     </div>
+     <div class="container" data-aos="flip-right"> AOS animate  
+
+     </div>
+     <div class="container" data-aos="zoom-in"> AOS animate  
+
+     </div>
+     <div class="container" data-aos="flip-down""> AOS animate  
+
+     </div>
+     <div class="container" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"> AOS animate  
+
+     </div>
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
